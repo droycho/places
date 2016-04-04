@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-md-6">
 
-          <form class="form-control" >
+          <form>
             <div class= "form-group">
               <label for="location">Location:</label>
               <input type="text" class="form-control" id="newLocation">
@@ -30,8 +30,18 @@
               <label for="notes">Notes:</label>
               <input type="text" class="form-control" id="newNotes">
             </div>
-            <button type="submit" class="btn">Add</button>   
+            <button type="submit" class="btn">Add</button>
           </form>
+          <h2>Places</h2>
+          <ul id="output">
+          </ul>
+          </div>
+          <div class="col-md-6" id= "show-details">
+            <h2></h2>
+            <p>Landmark:<span class= "landmark"></span></p>
+            <p>Time of Year:<span class= "time"></span></p>
+            <p>Notes:<span class= "note"></span></p>
+          </div>
         </div>
       </div>
     </div>
